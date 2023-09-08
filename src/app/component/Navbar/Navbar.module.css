@@ -1,0 +1,104 @@
+/* components/Navbar.module.css */
+
+/* Basic Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .mobile-toggle {
+    display: none; /* Hidden by default on larger screens */
+    cursor: pointer;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .dropdown-content.active {
+    display: block;
+  }
+  
+  .dropdown-column {
+    width: 25%;
+    float: left;
+  }
+  
+  /* Show mobile menu on smaller screens */
+  @media (max-width: 768px) {
+    .mobile-toggle {
+      display: block;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      transition: max-height 0.3s ease-in-out;
+      max-height: 0;
+      overflow: hidden;
+    }
+  
+    .nav-list.mobile-open {
+      max-height: 500px; /* Adjust as needed */
+    }
+  
+    .nav-list li {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .dropdown {
+      width: 100%;
+    }
+  
+    .dropdown-content {
+      width: 100%;
+      left: 0;
+    }
+  
+    .dropdown-column {
+      width: 50%;
+      float: none;
+    }
+  }
+  

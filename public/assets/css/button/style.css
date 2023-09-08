@@ -1,0 +1,13 @@
+.home_btn{
+    border-radius: 0;
+    width: 100%;
+    position: relative;
+    border-color: #ec1c24;
+    height: 100%;
+    font-size: 16px;
+    letter-spacing: .3em;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
