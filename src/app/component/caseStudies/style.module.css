@@ -1,0 +1,20 @@
+.caseStudies{
+    padding-top: 80px;
+}
+.caseStudies p{
+    color: #fff;
+    font-size: 18px;
+    width: 35%;
+    margin-top: 30px;
+    transform: scale(1);
+    transition: all .8s ease-in-out;
+}
+.caseStudies .slide{
+    height: 700px;
+    padding: 80px;
+    position: relative;
+    background-size: 120%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transition: all .8s ease-in-out;
+}

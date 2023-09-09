@@ -1,0 +1,38 @@
+.webHeading{
+    text-align: center;
+    margin: 0;
+}
+.webHeading h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(236, 28, 36);
+    margin: 0px;
+}
+.webHeading h2{
+    font-size: 26px;
+    line-height: 50px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    position: relative;
+}
+.webHeading h2::before{
+    content: "";
+    background: rgb(236, 28, 36);
+    bottom: 0px;
+    height: 4px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+    width: 65px;
+}
+.webHeading p{
+    color: rgb(35, 31, 32);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+}
