@@ -1,0 +1,112 @@
+.working{
+       padding: 80px 0 0;
+       position: relative;
+       width: 100%; 
+}
+.working::before{
+    background: url("/assets/img/process/working.webp") no-repeat;
+    background-size: 100%!important;
+    content: "";
+    height: 382px;
+    left: 40px;
+    position: absolute;
+    top: 40%;
+    width: 270px;
+}
+.process{
+    margin-bottom: 80px;
+    margin-top: 80px;
+    width: 100%;
+}
+.process ul{
+    background: url('/assets/img/process/curved.webp');
+    height: 800px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.process li{
+    position: absolute;
+    left: 9%;
+    top: 2%;
+}
+.process li:nth-child(2){
+    left: 17%;
+    top: 16%;
+}
+.process li:nth-child(3){
+    left: 21.5%;
+    top: 33%;
+}
+.process li:nth-child(4){
+    left: 22%;
+    top: 51%;
+}
+.process li:nth-child(5){
+    left: 19%;
+    top: 68%;
+}
+.process li:nth-child(6){
+    left: 11%;
+    top: 83%;
+}
+.process li .box{
+    display: flex;
+    align-items: flex-start;
+}
+.process li .box span{
+    width: 93px;
+    height: 93px;
+    background: #ec1c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    transition: .25s;
+}
+.process li .box span::before{
+    content: "";
+    height: 2px;
+    width: 10px;
+    background: #ec1c24;
+    position: absolute;
+    right: -13px;
+    top: 7px;
+    width: 60px;
+    z-index: -1;
+}
+.process .content{
+    padding: 0 0 0 20px;
+    flex: 1 1;
+}
+.process li .box h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ec1c24;
+}
+.process li .box p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 85%;
+    padding: 5px 0 0;
+}
+@media only screen and (max-width:768px){
+
+    .process ul {
+        background: none;
+        height: auto;
+        margin: 250px 0 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .process li{
+        position: unset;     
+    } 
+    .process li .box{
+        align-items: center!important;
+        flex-flow: column;
+        justify-content: center;
+    }
+}

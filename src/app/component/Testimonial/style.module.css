@@ -1,0 +1,53 @@
+.testimonial{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-flow: column;
+    background: url('/assets/img/enqueue/background.webp') no-repeat;
+    background-size: cover!important;
+    padding: 50px 0;
+    background-position: top;
+}
+.box{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    height: 240px;
+    width: 400px;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,.161);
+    border-radius: 28px;
+}
+.box .content h4{
+    color: #ec1c24;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 5px 0;
+    margin: 0;
+}
+.box .content p{
+    color: #000;
+    line-height: 24px;
+    font-size: 15px;
+    max-height: 70px;
+    overflow-y: auto;
+    padding: 0 0 5px;
+    margin: 0;
+}
+.box .ref{
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+.box .ref img{
+    vertical-align: bottom;
+    margin: 0 5px 0 0;
+}
+.box .ref h5{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 0 0 10px;
+}

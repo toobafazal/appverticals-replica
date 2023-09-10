@@ -9,7 +9,7 @@ interface HeadProps {
 const Heading:React.FC<HeadProps> = ({heading, subHeading , para}) => {
   return (
     <>
-    <div className={style.webHeading}>
+    <div className={`my-5 ${style.webHeading}`}>
         <h4>{subHeading}</h4>
         <h2>{heading}</h2>
         <p>{para}</p>

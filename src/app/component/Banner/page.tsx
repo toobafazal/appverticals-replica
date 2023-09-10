@@ -56,19 +56,19 @@ const Banner: React.FC = () => {
                         </div>
                         <Slider className={style.companyLogo} {...settings}>
                             <div>
-                                <Image src='/assets/hero/01.webp' alt='logo' width={1000} height={1000} />
+                                <Image src='/assets/hero/01.webp' alt='logo' width={147} height={47} />
                             </div>
                             <div>
-                                <Image src='/assets/hero/02.webp' alt='logo' width={1000} height={1000} />
+                                <Image src='/assets/hero/02.webp' alt='logo' width={147} height={47} />
                             </div>
                             <div>
-                                <Image src='/assets/hero/03.webp' alt='logo' width={1000} height={1000} />
+                                <Image src='/assets/hero/03.webp' alt='logo' width={147} height={47} />
                             </div>
                             <div>
-                                <Image src='/assets/hero/04.webp' alt='logo' width={1000} height={1000} />
+                                <Image src='/assets/hero/04.webp' alt='logo' width={147} height={47} />
                             </div>
                             <div>
-                                <Image src='/assets/hero/05.webp' alt='logo' width={1000} height={1000} />
+                                <Image src='/assets/hero/05.webp' alt='logo' width={147} height={47} />
                             </div>
 
                         </Slider>

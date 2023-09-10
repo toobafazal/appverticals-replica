@@ -1,0 +1,41 @@
+.enqueue .industry{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: flex-end!important;
+}
+.enqueue ul{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+}
+.enqueue li{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.enqueue .box{
+    width: 100px;
+    height: 90px;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,.161);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    transition: all .4s ease-in-out;
+}
+.enqueue .content{
+    margin: 0 0 0 25px;
+}
+.enqueue .content h4{
+    font-size: 25px;
+    color: #ec1c24;
+    font-weight: 700;
+    padding: 0 0 5px;
+}
+.enqueue .content p{
+    font-size: 14px;
+    line-height: 20px;
+}
