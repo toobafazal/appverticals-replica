@@ -5,7 +5,7 @@
 .webHeading h4{
     font-size: 24px;
     font-weight: 700;
-    color: rgb(236, 28, 36);
+    color: #81104efc;
     margin: 0px;
 }
 .webHeading h2{
@@ -18,7 +18,7 @@
 }
 .webHeading h2::before{
     content: "";
-    background: rgb(236, 28, 36);
+    background: #81104efc;
     bottom: 0px;
     height: 4px;
     left: 0px;

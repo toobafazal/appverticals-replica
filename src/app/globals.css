@@ -25,6 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.slick-prev:before, .slick-next:before{
+  color: #81104efc !important;
+}
 .homeCard{
   /* width: 100%;
   height: 100%; */
